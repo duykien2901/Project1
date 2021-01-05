@@ -1,0 +1,226 @@
+.box-title {
+  color: #fff;
+  background: #292929;
+  margin-bottom: 40px;
+  width: 100%;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.box-filter {
+  color: #272727;
+  background: #e1e1e1;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+hr {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.small-title {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.star-rate {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  align-items: center;
+  opacity: 0.6;
+  margin: 5px 0 5px 5px;
+}
+
+.star-rate-active {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  align-items: center;
+  opacity: 1;
+  margin: 5px 0 5px 5px;
+}
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 0;
+  cursor: pointer;
+  color: #636363;
+  margin-left: 10px;
+}
+
+.color {
+  background: grey;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 0.5px solid #636363;
+}
+.color-item {
+    cursor: pointer;
+    color: #636363;
+    margin-left: 5px;
+    font-size: 17px;
+  font-weight: 600;
+}
+.color-active {
+    cursor: pointer;
+    color: #636363;
+    margin-left: 5px;
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+}
+.item img {
+  width: 19px;
+  height: auto;
+}
+
+/* Product */
+.search-title {
+  margin: 0;
+  font-weight: 650;
+}
+
+.sort .number {
+  font-size: 14px;
+  color: #7c7c7c;
+}
+
+.sort {
+  z-index: 5;
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sort .sort-product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.drop-button {
+  position: relative;
+}
+
+.drop-button .current-type-sort {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 10px;
+  padding: 3px 10px;
+  border: 1px solid #a0a0a0;
+  border-radius: 2px;
+}
+
+.drop-button .current-type-sort .tick {
+  margin-left: 5px;
+  width: 13px;
+  transition: .3s;
+}
+
+
+.tick-active {
+  transform: rotate(180deg);
+}
+
+.drop-button .list-drop-item {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  width: 150px;
+  top: 110%;
+  right: 20px;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  animation: drop-animation 0.3s linear;
+  animation-delay: 0s;
+}
+
+@keyframes drop-animation {
+   0% {
+    transform: translateY(-15px);
+     opacity: 0;
+     
+   }
+   100% {
+    transform: translateY(0);
+     opacity: 1;
+     
+   }
+}
+.drop-button .list-drop-item-active{
+  display: block;
+}
+
+.drop-button .list-drop-item .drop-item {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 9px;
+  height: 30px;
+  color: #777;
+}
+
+.drop-item-active{
+  display: none;
+}
+
+.drop-button .list-drop-item .drop-item:hover {
+  color: #292929;
+  background-color: #a0a0a0;
+}
+
+.title-type {
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.title-type .active-type {
+  opacity: 1;
+  height: 20px;
+  width: auto;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.title-type .non-active {
+  opacity: 0.5;
+  height: 20px;
+  width: auto;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.change_content {
+  transition: all .3s;
+}
+.change_content:hover {
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,0,0,.3);
+  
+}
+
+

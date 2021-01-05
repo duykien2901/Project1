@@ -1,0 +1,43 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.title img {
+    width: 40px;
+    height: 40px;
+}
+
+.title h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #636363;
+}
+
+.see-more {
+    margin-right: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+}
+
+.see-more button {
+    font-size: 20px;
+    outline: none;
+    background: none;
+    border: 2px solid #a5a5a5;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #616161;
+    font-family: Poppins;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.see-more button:hover {
+    border: 2px solid #f37990;
+    color: #cf3b56;
+}

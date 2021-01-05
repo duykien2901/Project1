@@ -1,0 +1,135 @@
+.item {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+strong {
+    margin-right: 10px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #464646;
+    margin: 20px 0;
+    line-height: 20px;
+}
+
+.list-size {
+    display: flex;
+    flex-direction: row;
+}
+.img-shoe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-size .size-select {
+    padding: 10px;
+    margin-right: 10px;
+    background: none;
+    outline: none;
+    border-radius: 0;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.list-size .active {
+    color: black;
+    border: 2px solid black;
+}
+
+.list-size .size-select:hover {
+    border: 2px solid #b9b9b9;
+}
+
+.cost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cost img {
+    width: 27px;
+}
+
+.current-cost {
+    color: #ff2d54;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.discout {
+    padding: 4px 20px;
+    color: #fff;
+    background: #fe4c6d;
+    width: fit-content;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 7px 0;
+}
+
+.add-cart-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 10px;
+    margin: 0 20px;
+    background: #ff7992;
+    cursor: pointer;
+    transition: all .3s;
+}
+.add-cart-btn:hover {
+    background: #e43b5a;
+}
+.add {
+    margin: 0;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+svg {
+    fill: #fff;
+    width: 23px;
+}
+
+.alert-cart {
+    position: absolute;
+    right: 0;
+    width: 15%;
+    display: none;
+    animation: alert .3s;
+    z-index: 999999;
+}
+.alert-cart-active {
+    display: block;
+}
+
+@keyframes alert {
+    0% {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.close {
+    position: absolute;
+      top: 0;
+      right: 2px;
+      padding: 5px 5px 0 0;
+  
+  }
+

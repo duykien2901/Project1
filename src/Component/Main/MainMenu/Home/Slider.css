@@ -1,0 +1,63 @@
+li:hover {
+   background-color: red; 
+}
+.carousel-item img {
+    filter:brightness(50%);
+}
+.infor{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    max-width: 300px;
+}
+
+.infor .tag-name {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: #fff;
+    text-align: start;
+    margin: 10px 0;
+}
+
+.infor .title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: Poppins;
+    color: #fff;
+    text-align: start;
+    margin: 10px 0
+}
+
+.infor a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.infor a button{
+    
+    font-family: sans-serif;
+    padding: 8px 18px;
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    transition: .3s;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.infor a button:hover {
+    background: none;
+}

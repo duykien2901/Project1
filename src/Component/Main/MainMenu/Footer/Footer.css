@@ -1,0 +1,81 @@
+.footer {
+    width: 100%;
+    background: #121212;
+    color: #fff;
+    position: relative;
+    margin-top: 100px;
+    padding: 30px 30px 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer .address {
+    max-width: 500px;
+    margin-right: 40px;
+  }
+  .address-title {
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 5px 0;
+    border-bottom: 4px solid #fff;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  
+  .footer .address .address-text {
+    font-weight: 500;
+    color: #cbcbcb;
+    margin-bottom: 5px;
+  }
+  
+  .footer .address .address-comment {
+    font-size: 13px;
+    color: #838383;
+  }
+  
+  .footer .address .gmail-address {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .footer .address .gmail-address .icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .footer .address .gmail-address p {
+    margin: 0 0 0 10px;
+    padding: 0;
+    vertical-align: bottom;
+  }
+  
+  .contact-methods a {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .contact-methods a img {
+    object-fit: cover;
+    z-index: 2;
+    opacity: 0.7;
+    transition: opacity .5s;
+  }
+  
+  .contact-methods a img:hover {
+      opacity: 1;
+      
+  }
+  
+  .contact-methods {
+      margin-right: 50px;
+  }
+  
